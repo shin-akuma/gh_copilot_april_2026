@@ -115,57 +115,42 @@ By the end of this workshop, you will be able to:
 
 ## 🧪 Hands-On Labs
 
-Practice your skills with these interactive labs. See the [Hands-On Labs README](./Hands_On_Labs_README.md) for full setup instructions and learning paths.
+### Prerequisites
 
-### Developer Labs (Included in Repo)
+- VS Code with GitHub Copilot and Copilot Chat extensions
+- GitHub Copilot license active
+- GitHub CLI installed
+- Clone the [AccelerateDevGHCopilot](https://github.com/shin-akuma/AccelerateDevGHCopilot) project (C#/.NET Library Management System)
 
-These labs use the [AccelerateDevGHCopilot](./AccelerateDevGHCopilot/) project (C#/.NET Library Management System).
+### Developer Labs
 
-1. **[Lab 1: Custom Instructions and Custom Agents](./Lab1_Custom_Instructions_and_Agents.md)** (45-60 min, Beginner)
-   - Create `.github/copilot-instructions.md` for coding standards
-   - Build custom agents (`@mercury-test-generator`, `@mercury-code-reviewer`)
-   - Compare output quality before and after customization
+| # | Lab | Duration | Level |
+|---|-----|----------|-------|
+| 1 | [Custom Instructions and Custom Agents](./Lab1_Custom_Instructions_and_Agents.md) | 45-60 min | Beginner |
+| 2 | [Test-Driven Development with GitHub Copilot](./Lab2_Test_Driven_Development_with_Copilot.md) | 60-75 min | Intermediate |
+| 3 | [Code Quality, Refactoring & Debugging](./Lab3_Code_Quality_Refactoring_Debugging.md) | 50-60 min | Intermediate-Advanced |
 
-2. **[Lab 2: Test-Driven Development with GitHub Copilot](./Lab2_Test_Driven_Development_with_Copilot.md)** (60-75 min, Intermediate)
-   - TDD workflow: Red-Green-Refactor with Copilot
-   - Generate test suites before implementing features
-   - Achieve 80%+ code coverage
+### Microsoft Learning Labs
 
-3. **[Lab 3: Code Quality, Refactoring & Debugging](./Lab3_Code_Quality_Refactoring_Debugging.md)** (50-60 min, Intermediate-Advanced)
-   - Debug with `/fix` command
-   - Refactor code for maintainability
-   - Security best practices with `.copilotignore`
-   - Performance optimization
+| # | Lab | Lab Files |
+|---|-----|-----------|
+| 4 | [Analyze Document Code](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_02_analyze_document_code.html) | [📦 Download](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM2.zip) |
+| 5 | [Develop Code Features](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_03_develop_code_features.html) | [📦 Download](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM3.zip) |
+| 6 | [Develop Unit Tests with xUnit](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_04_develop_unit_tests_xunit.html) | [📦 Download](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM4.zip) |
 
-### Developer Labs (Microsoft Learning)
+### Specialized Labs
 
-4. **[Analyze Document Code](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_02_analyze_document_code.html)**
-   - Learn to analyze and document existing code with Copilot
-   - [📦 Download Lab Files](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM2.zip)
+| # | Lab | Duration | Focus |
+|---|-----|----------|-------|
+| 7 | [Copilot with Terraform](https://github.com/shin-akuma/copilot-terraform) | 30-45 min | IaC with Terraform, Azure DevOps pipeline generation |
+| 8 | [Cloud Lab — Scripting](https://experience.cloudlabs.ai/#/labguidepreview/f9fd80ac-fc1a-4609-a3f1-06650aec389e) (Page 10) | 20-30 min | Scripting exercises in a provisioned cloud environment |
+| 9 | [Copilot for Data Engineering](https://github.com/CleveritDemo/copilot-data-engineering/tree/main) | 30-45 min | PySpark RDD/DataFrame operations, SQL query generation, data profiling |
+| 10 | [Copilot for ML & Data Ops](https://github.com/arinco-crew-community/copilot-ml-data-ops/tree/main) | 45-60 min | SQL schema generation, penguin species classification, ML Q&A |
 
-5. **[Develop Code Features](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_03_develop_code_features.html)**
-   - Build new features using GitHub Copilot assistance
-   - [📦 Download Lab Files](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM3.zip)
+### Additional Labs
 
-6. **[Develop Unit Tests with xUnit](https://microsoftlearning.github.io/mslearn-github-copilot-dev/Instructions/Labs/LAB_AK_04_develop_unit_tests_xunit.html)**
-   - Create comprehensive unit tests with Copilot
-   - [📦 Download Lab Files](https://github.com/MicrosoftLearning/mslearn-github-copilot-dev/raw/refs/heads/main/DownloadableCodeProjects/Downloads/AZ2007LabAppM4.zip)
-
-### Documentation & Cloud Labs
-
-7. **[Generate Documentation Challenge](https://learn.microsoft.com/en-gb/training/modules/generate-documentation-using-github-copilot-tools/6-exercise-complete-code-documentation-challenge)**
-   - Master code documentation with GitHub Copilot tools
-
-8. **[Interactive Cloud Lab Environment](https://experience.cloudlabs.ai/#/labguidepreview/f9fd80ac-fc1a-4609-a3f1-06650aec389e)**
-   - Hands-on practice in a fully provisioned cloud environment
-
-### Specialized Practice Repositories
-
-9. **[Copilot with Terraform](./copilot-terraform/)** — Infrastructure as Code with Copilot
-
-10. **[Copilot for Data Engineering](./copilot-data-engineering/)** — Data pipelines and ETL processes
-
-11. **[Copilot for ML & Data Ops](./copilot-ml-data-ops/)** — Machine learning workflows and data operations
+- [Generate Documentation Challenge](https://learn.microsoft.com/en-gb/training/modules/generate-documentation-using-github-copilot-tools/6-exercise-complete-code-documentation-challenge)
+- [Interactive Cloud Lab Environment](https://experience.cloudlabs.ai/#/labguidepreview/f9fd80ac-fc1a-4609-a3f1-06650aec389e)
 
 ## 💡 Additional Resources
 
