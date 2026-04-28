@@ -156,7 +156,7 @@ By the end of this workshop, you will be able to:
 
 - [GitHub Copilot Official Documentation](https://docs.github.com/en/copilot)
 - [GitHub Copilot Blog](https://github.blog/tag/github-copilot/)
-- [Awesome GitHub Copilot](https://github.com/copilot-community/awesome-copilot)
+- [Awesome GitHub Copilot](https://github.com/github/awesome-copilot)
 
 ## 🤝 Contributing
 
